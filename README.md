@@ -1,16 +1,42 @@
-# React + Vite
+# 🚀 AI & Mobile Computing Portfolio | Loh Wei Chuan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A high-performance personal portfolio built with **React 19**, **Tailwind CSS**, and **Vite**. This project serves as a professional showcase of my technical skills in frontend development, mobile application design, and academic achievements at Taylor's University.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚖️ License & Copyright
+**© 2026 Loh Wei Chuan. All rights reserved.**
 
-## React Compiler
+**IMPORTANT:** This repository and its source code are for **portfolio demonstration purposes only**. 
+- **No Permission:** No permission is granted to any individual or entity to copy, distribute, modify, or use the source code, logic, or assets for personal, academic, or commercial projects.
+- **Proprietary Assets:** All project images, UI designs (KONGSI & Capybara), and personal certificates are proprietary property and may not be reused or rehosted.
+- **Viewing Only:** This code is public solely for recruitment and technical review purposes. Unauthorized use for other projects is strictly prohibited.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
+You can view the live site here: 
+👉 [https://wcchuan.github.io/lohweichuan_portfolio/](https://wcchuan.github.io/lohweichuan_portfolio/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js 19 (SWC)
+- **Styling:** Tailwind CSS
+- **Icons:** React Icons
+- **Build Tool:** Vite
+- **Deployment:** GitHub Pages
+
+---
+
+## ✨ Key Features
+- **Project Showcases:** Specialized UI layouts for **KONGSI** (Mobile/Flutter) and **Capybara Logistics** (Web/React).
+- **Professional Evidence:** Integrated media sections for my **GCR Internship Final Report** and **Dean's List Certificates**.
+- **Responsive UI:** Fully optimized for mobile devices and desktop browsers.
+- **Direct Networking:** One-click connectivity to LinkedIn and WhatsApp.
+
+---
+
+## 📬 Contact Information
+- **LinkedIn:** [Loh Wei Chuan](https://www.linkedin.com/in/wei-chuan-loh-2604482ab/)
+- **Education:** Taylor's University (AI & Mobile Computing)
