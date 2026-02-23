@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { projects, info } from './data';
 import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import { MdWork, MdClose, MdZoomIn } from 'react-icons/md'; 
+import resumePhoto from './assets/resume_photo.jpeg';
 
 function App() {
   const [hoveredImg, setHoveredImg] = useState({});
@@ -66,7 +67,7 @@ function App() {
           <div className="relative group">
             <div className="w-80 h-80 bg-blue-500 absolute -inset-4 rounded-[3rem] blur-2xl opacity-10 group-hover:opacity-20 transition duration-500"></div>
             <div className="w-64 h-64 bg-slate-900 relative rounded-[2rem] overflow-hidden border-8 border-white shadow-2xl transition-transform duration-500 group-hover:rotate-2">
-              <img src="src/assets/resume_photo.jpeg" alt="Loh Wei Chuan" className="w-full h-full object-cover" />
+              <img src={resumePhoto} alt="Loh Wei Chuan" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>
