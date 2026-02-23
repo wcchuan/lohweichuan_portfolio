@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { projects, info } from './data';
 import { FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 import { MdWork, MdClose, MdZoomIn } from 'react-icons/md'; 
-import resumePhoto from './assets/resume_photo.jpeg';
+import resumePhoto from './assets/resume_photo.jpg';
 
 function App() {
   const [hoveredImg, setHoveredImg] = useState({});
