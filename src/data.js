@@ -18,14 +18,36 @@ import capy6 from './assets/capy_picture6.jpg';
 import deansList1Img from './assets/deans_list_1.png';
 import deansList2Img from './assets/deans_list_2.png';
 
+// SEO Images
+import seo1 from './assets/Search_Console_Traffic_1.png';
+import seo2 from './assets/Search_Console_Traffic_2.png';
+import seo3 from './assets/Search_Console_Traffic_3.png';
+import seo4 from './assets/Search_Console_Traffic_4.png';
+
 export const info = {
   name: "Loh Wei Chuan",
   education: "Bachelor Of Computer Science (Honours) in AI & Mobile Computing at Taylor's University",
+  skillsMatrix: {
+    "AI/Data": ["Python", "NLP", "Computer Vision", "Data Analysis"],
+    "Frontend": ["React", "Tailwind CSS", "Framer Motion"],
+    "Marketing": ["Technical SEO", "Google Search Console", "Traffic Analytics"]
+  },
   skills: ["React.js", "Flutter", "Python", "Firebase", "C++", "Java"],
   certifications: [
     { name: "Dean List 1", image: deansList1Img },
     { name: "Dean List 2", image: deansList2Img }
   ]
+};
+
+export const seoEvidence = {
+  title: "Growth & SEO Results",
+  description: "Real-world traffic and search console results from my experience assisting clients with their SEO strategies on a part-time basis.",
+  metrics: [
+    { label: "Organic Visibility", value: "Increased", description: "Improved organic visibility through targeted keyword strategy and semantic HTML." },
+    { label: "Client Acquisition", value: "Proven Growth", description: "Successfully generated organic traffic and improved search rankings for external clients." },
+    { label: "Traffic Analytics", value: "Data-Driven", description: "Applying marketing mechanics and Google Search Console insights." }
+  ],
+  images: [seo1, seo2, seo3, seo4]
 };
 
 export const projects = [
@@ -44,12 +66,12 @@ export const projects = [
   {
     title: "Capybara Logistics",
     category: "Diploma Final Year Project (UOW KDU)",
-    description: "A web-based logistics application for parcel tracking and delivery management, utilizing a serverless data approach.",
-    tech: ["React.js", "JavaScript", "Google Sheets API"],
+    description: "A data-driven logistics dashboard focused on backend logic and precise data insights. Designed to cleanly present actionable logistics data without unnecessary visual flair.",
+    tech: ["Python", "Data Analysis", "React.js"],
     achievements: [
-      "Built multi-stage parcel tracking dashboard",
-      "Integrated Google Sheets API for agile data management",
-      "Designed user-centric order placement workflows"
+      "Explored predictive modeling concepts for delivery estimations",
+      "Implemented data cleansing to ensure accurate reporting and routing",
+      "Integrated scalable backend logic for agile multi-stage tracking"
     ],
     uiScreenshots: [capy1, capy2, capy3, capy4, capy5, capy6]
   }
